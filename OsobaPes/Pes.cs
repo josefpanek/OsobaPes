@@ -18,7 +18,7 @@ namespace OsobaPes
         }
         public override string ToString()
         {
-            return jmeno;
+            return $"{jmeno} ({vek} let)";
         }
         public int Zestarni()
         {
